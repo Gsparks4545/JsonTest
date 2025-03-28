@@ -1,0 +1,47 @@
+{
+    "Items":
+    {
+        "itemstruct": [
+            {
+                "primalitems": [
+                    "/Game/PrimalEarth/CoreBlueprints/Resources/PrimalItemResource_Fibers.PrimalItemResource_Fibers_C",
+                    "/Game/PrimalEarth/CoreBlueprints/Resources/PrimalItemResource_Stone.PrimalItemResource_Stone_C",
+                    "/Game/PrimalEarth/CoreBlueprints/Resources/PrimalItemResource_Flint.PrimalItemResource_Flint_C"
+                ],
+                "itemweightchance": [ 0.80000000000000004, 0.69999999999999996, 0.59999999999999998 ],
+                "canbeblueprint": [ false, false, false ],
+                "blueprintchance": [ 0, 0, 0 ],
+                "minmaxqualdmgarmorduraquantity": [
+                    "0/1,0/1,0/1,0/1,0/1,0/1",
+                    "0/1,0/1,0/1,0/1,0/1,0/1",
+                    "0/1,0/1,0/1,0/1,0/1,0/1"
+                ],
+                "preventduplicates": [ true, false, false ]
+            }
+        ],
+        "dinostruct": [
+            {
+                "dinoclass": [
+                    "/Game/PrimalEarth/Dinos/Achatina/Achatina_Character_BP.Achatina_Character_BP_C",
+                    "/Game/PrimalEarth/Dinos/Dodo/Dodo_Character_BP.Dodo_Character_BP_C"
+                ],
+                "dinoname": [
+                    "Snail",
+                    "Frank The Dodo"
+                ],
+                "gender": [ 0, 1 ],
+                "chancetoget": [ 1, 0.5 ],
+                "minmaxlevel": [
+                    "50/150",
+                    "50/150"
+                ],
+                "breeders": [ true, false ],
+                "chancetousecolors": [ 0.01, 1 ],
+                "012345colors": [
+                    "0/0/0/0/0/0",
+                    "0/0/0/0/0/0"
+                ]
+            }
+        ]
+    }
+}
