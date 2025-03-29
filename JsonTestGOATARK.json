@@ -1,47 +1,85 @@
 {
-    "Items":
-    {
-        "itemstruct": [
-            {
-                "primalitems": [
-                    "/Game/PrimalEarth/CoreBlueprints/Resources/PrimalItemResource_Fibers.PrimalItemResource_Fibers_C",
-                    "/Game/PrimalEarth/CoreBlueprints/Resources/PrimalItemResource_Stone.PrimalItemResource_Stone_C",
-                    "/Game/PrimalEarth/CoreBlueprints/Resources/PrimalItemResource_Flint.PrimalItemResource_Flint_C"
-                ],
-                "itemweightchance": [ 1, 1, 1 ],
-                "canbeblueprint": [ false, false, false ],
-                "blueprintchance": [ 0, 0, 0 ],
-                "minmaxqualdmgarmorduraquantity": [
-                    "1/1,1/10",
-                    "1/1,1/100",
-                    "1/1,1/1000"
-                ],
-                "preventduplicates": [ true, false, false ]
-            }
-        ],
-        "dinostruct": [
-            {
-                "dinoclass": [
-                    "/Game/PrimalEarth/Dinos/Achatina/Achatina_Character_BP.Achatina_Character_BP_C",
-                    "/Game/PrimalEarth/Dinos/Dodo/Dodo_Character_BP.Dodo_Character_BP_C"
-                ],
-                "dinoname": [
-                    "Snail",
-                    "Frank The Dodo"
-                ],
-                "gender": [ 0, 1 ],
-                "chancetoget": [ 1, 0.5 ],
-                "minmaxlevel": [
-                    "10/15,0/0,0/0,0/0,0/0,0/0,0/0,0/0,0/2,0/2,0/2,0/2,0/2,0/2,0/2",
-                    "0/0,15/30,15/30,15/30,15/30,15/30,15/30,15/30,0/2,0/2,0/2,0/2,0/2,0/2,0/2"
-                ],
-                "breeders": [ true, false ],
-                "chancetousecolors": [ 0.01, 1 ],
-                "012345colors": [
-                    "1/1/1/1/1/1",
-                    "0/0/0/0/0/0"
-                ]
-            }
-        ]
-    }
+	"LootBoxData":
+	{
+		"itemstruct": [
+			{
+				"entryid": "MetalTools",
+				"primalitems": [
+					"/Game/PrimalEarth/CoreBlueprints/Weapons/PrimalItem_WeaponMetalHatchet.PrimalItem_WeaponMetalHatchet_C",
+					"/Game/PrimalEarth/CoreBlueprints/Weapons/PrimalItem_WeaponMetalPick.PrimalItem_WeaponMetalPick_C"
+				],
+				"itemweightchance": [ 1, 1 ],
+				"canbeblueprint": [ false, false ],
+				"blueprintchance": [ 0, 0 ],
+				"minmaxqualdmgarmorduraquantity": [
+					"15/20,1/1,2000/2000,2000/2000,0/0,5/5,0/0,0/0,20/20",
+					"15/20,1/1,2000/2000,2000/2000,0/0,5/5,0/0,0/0,20/20"
+				],
+				"preventduplicates": [ true, true ]
+			},
+			{
+				"entryid": "StoneTools",
+				"primalitems": [
+					"/Game/PrimalEarth/CoreBlueprints/Weapons/PrimalItem_WeaponStoneHatchet.PrimalItem_WeaponStoneHatchet_C",
+					"/Game/PrimalEarth/CoreBlueprints/Weapons/PrimalItem_WeaponStonePick.PrimalItem_WeaponStonePick_C"
+				],
+				"itemweightchance": [ 1, 1 ],
+				"canbeblueprint": [ false, false ],
+				"blueprintchance": [ 0, 0 ],
+				"minmaxqualdmgarmorduraquantity": [
+					"15/20,1/1,2000/2000,2000/2000,0/0,5/5,0/0,0/0,20/20",
+					"15/20,1/1,2000/2000,2000/2000,0/0,5/5,0/0,0/0,20/20"
+				],
+				"preventduplicates": [ true, true ]
+			}
+		],
+		"dinostruct": [
+			{
+				"entryid": "Starter",
+				"dinoclass": [
+					"/Game/PrimalEarth/Dinos/Ptero/Ptero_Character_BP.Ptero_Character_BP_C",
+					"/Game/PrimalEarth/Dinos/Trike/Trike_Character_BP.Trike_Character_BP_C"
+				],
+				"dinoname": [
+					"Starter Flyer",
+					"Starter Berry Getter"
+				],
+				"gender": [ 0, 0 ],
+				"chancetoget": [ 1, 1 ],
+				"minmaxlevel": [
+					"224/224,0/0,0/0,0/0,0/0,0/0,0/0,0/0,0/2,0/2,0/2,0/2,0/2,0/2,0/2",
+					"224/224,0/0,0/0,0/0,0/0,0/0,0/0,0/0,0/2,0/2,0/2,0/2,0/2,0/2,0/2"
+				],
+				"breeders": [ false, false ],
+				"chancetousecolors": [ 0.10000000000000001, 0.10000000000000001 ],
+				"012345colors": [
+					"1/1/1/1/1/1",
+					"1/1/1/1/1/1"
+				]
+			},
+			{
+				"entryid": "StarterBreeders",
+				"dinoclass": [
+					"/Game/PrimalEarth/Dinos/Ptero/Ptero_Character_BP.Ptero_Character_BP_C",
+					"/Game/PrimalEarth/Dinos/Trike/Trike_Character_BP.Trike_Character_BP_C"
+				],
+				"dinoname": [
+					"Starter Flyer",
+					"Starter Berry Getter"
+				],
+				"gender": [ 0, 0 ],
+				"chancetoget": [ 1, 1 ],
+				"minmaxlevel": [
+					"224/224,0/0,0/0,0/0,0/0,0/0,0/0,0/0,0/2,0/2,0/2,0/2,0/2,0/2,0/2",
+					"224/224,0/0,0/0,0/0,0/0,0/0,0/0,0/0,0/2,0/2,0/2,0/2,0/2,0/2,0/2"
+				],
+				"breeders": [ true, true ],
+				"chancetousecolors": [ 0.10000000000000001, 0.10000000000000001 ],
+				"012345colors": [
+					"1/1/1/1/1/1",
+					"1/1/1/1/1/1"
+				]
+			}
+		]
+	}
 }
