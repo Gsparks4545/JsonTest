@@ -8,13 +8,13 @@
                     "/Game/PrimalEarth/CoreBlueprints/Resources/PrimalItemResource_Stone.PrimalItemResource_Stone_C",
                     "/Game/PrimalEarth/CoreBlueprints/Resources/PrimalItemResource_Flint.PrimalItemResource_Flint_C"
                 ],
-                "itemweightchance": [ 0.80000000000000004, 0.69999999999999996, 0.59999999999999998 ],
+                "itemweightchance": [ 1, 1, 1 ],
                 "canbeblueprint": [ false, false, false ],
                 "blueprintchance": [ 0, 0, 0 ],
                 "minmaxqualdmgarmorduraquantity": [
-                    "0/1,0/1,0/1,0/1,0/1,0/1",
-                    "0/1,0/1,0/1,0/1,0/1,0/1",
-                    "0/1,0/1,0/1,0/1,0/1,0/1"
+                    "1/1,1/10",
+                    "1/1,1/100",
+                    "1/1,1/1000"
                 ],
                 "preventduplicates": [ true, false, false ]
             }
@@ -32,8 +32,8 @@
                 "gender": [ 0, 1 ],
                 "chancetoget": [ 1, 0.5 ],
                 "minmaxlevel": [
-                    "50/150",
-                    "50/150"
+                    "145/150,0/0,0/0,0/0,0/0,0/0,0/0,0/0,0/2,0/2,0/2,0/2,0/2,0/2,0/2",
+                    "0/0,15/30,15/30,15/30,15/30,15/30,15/30,15/30,0/2,0/2,0/2,0/2,0/2,0/2,0/2"
                 ],
                 "breeders": [ true, false ],
                 "chancetousecolors": [ 0.01, 1 ],
